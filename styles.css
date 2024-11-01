@@ -1,0 +1,87 @@
+:root{
+
+--vermelhoForte:#b71c1c;
+--rosa:#c2185b;
+--rosaForte:#ad1457;
+--roxo:#6a1b9a;
+--vermelhoClaro:#d32f2f;
+--vermelho:#c62828;
+--branco: w   
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    background-color: var(--vermelhoClaro);
+    color: white;
+    width: 100%;
+    justify-content: center;
+}
+nav.header_nav{
+    display: flex;
+    justify-content: center;
+}
+nav button {
+    margin: 0 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    background-color: var(--vermelhoClaro);
+    border: none;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: var(--rosa);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background-image: url(./resource/tela_tentativa.gif) ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 50rem;
+    width: 100%;
+}
+.content-section {
+    border: 1px solid var(--vermelhoForte);
+    border-radius: 5px;
+    margin-top: 14%;
+    height: 25rem;
+    width: 50%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    /* background-color: var(--vermelho); */
+}
+
+.class_div1_about{
+color: #6a1b9a;
+}
+
+
+#about{
+    display: flex;
+flex-direction: row;
+}
+
+#experiences{
+
+}
+#projects{
+
+}
